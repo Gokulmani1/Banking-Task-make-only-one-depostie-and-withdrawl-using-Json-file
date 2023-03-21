@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>march4task</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+  #display,.display{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+ .sp2{
+    color: rgb(203, 53, 53);
+
+  }
+ .sp1{
+    color: rgb(63, 219, 66);
+
+  }
+</style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="mt-5">
+    <!-- <h4   style="text-align: center;">Banking Task</h4> -->
+    <div class="container ">
+      <div class="row mt-2">
+          <div class="col-lg-12">
+              <h4  class=" display text-center">Banking Task</h4>
+          </div>
+      </div>
+          <div class="row mt-5">
+              <div class="col-lg-2">
+                  <label>Account Number</label>
+              </div>
+              <div class="col-lg-3">
+                <input type="tel" class="form-control "  placeholder="account number" pattern="[0-9]{10}" id="accountnumber" />
+              </div>
+              <div class="col-lg-2">&nbsp;</div>
+          </div>
+          <div class="row mt-1">
+              <div class="col-lg-2">
+                <label>Deposite Amount</label>
+              </div>
+              <div class="col-lg-3">
+                <input type="tel"  class="form-control " placeholder="deposite amount" id="depositeamount" />
+              </div>
+              <div class="col-lg-2">&nbsp;</div>
+              
+          </div>
+          <div class="row mt-1">
+              <div class="col-lg-2">
+                  <label>Withdraw Amount</label>
+              </div>
+              <div class="col-lg-3">
+                <input type="tel"  class="form-control" placeholder="Withdraw amount" id="withdrawamount" />
+              </div>
+              <div class="col-lg-2">&nbsp;</div>
+              
+          </div>
+          <div class="row mt-1">
+              <div class="col-lg-2">
+                  <label>Transaction Mode</label>
+              </div>
+              <div class="col-lg-3">
+                <input type="radio"  name="GFG" id="radio1"
+                value="deposite">Deposite<br>
+                <input type="radio"   name="GFG" id="radio2"
+                value="Withdraw">Withdraw<br>
+              </div>
+              <div class="col-lg-2">&nbsp;</div>
+              
+          </div>
+          <!-- <div class="row mt-1">
+              <div class="col-lg-2">
+                  <label>About</label>
+              </div>
+              <div class="col-lg-10">
+                  <textarea name="about" id="about" class="form-control"></textarea>
+              </div>
+          </div> -->
+          <div class="row mt-2 mb-3">
+              <div class="col-lg-2">&nbsp;</div>
+              <div class="col-lg-2">
+                   <button class="btn btn-danger" onclick="mar4()">Transaction</button>
+              </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-lg-12">
+                <h4 class="text-center" id="display"></h4>
+            </div>
+        </div>
+      
+  </div>
+
+
+
+
+
+
+
+<!-- 
+    <input type="tel" class="form-control w-25"  placeholder="account number" pattern="[0-9]{10}" id="accountnumber" />
+    <input type="tel"  class="form-control w-25" placeholder="phone number" pattern="[0-9]{10}" id="phonenumber" />
+    <input type="tel"  class="form-control w-25" placeholder="deposite amount" id="depositeamount" />
+    <input type="tel"  class="form-control w-25" placeholder="Withdraw amount" id="withdrawamount" />
+    <input type="radio" name="GFG" id="radio1"
+    value="deposite">Deposite<br>
+    <input type="radio" name="GFG" id="radio2"
+    value="Withdraw">Withdraw<br>
+    <button class="btn btn-warning" onclick="mar4()">click</button> -->
+      <script src="mar4task.js" ></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
